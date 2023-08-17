@@ -48,7 +48,7 @@ function b5_tinh() {
   var b5_so = document.getElementById("b5_so").value;
 
   if (b5_so.length != 2) {
-    document.getElementById("b5_ketQua").innerHTML = `Số bạn nhập không hợp lệ`;
+    document.getElementById("b5_ketQua").innerHTML = "Số bạn nhập không hợp lệ";
   } else {
     b5_so = Number(b5_so);
     var soHangChuc = Math.floor(b5_so / 10);
